@@ -1,0 +1,128 @@
+body{
+            background-color: #f2f2f2;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        .ozelt{
+            background: linear-gradient(90deg, rgba(68,114,196,1) 0%, rgba(90,132,207,1) 100%);
+            padding: 30px 20px 20px 20px;
+            text-align: center;
+        }
+
+        h1{
+            font-size: 34px;
+            font-family: 'Times New Roman', Times, serif;
+            color: white;
+            margin: 0;
+        }
+
+        .white{
+            color: aliceblue;
+            font-size: 15px;
+        }
+
+        nav {
+            margin-top: 18px;
+        }
+
+        nav a{
+            display: inline-block;
+            background-color: rgb(90, 132, 207);
+            color: white;
+            text-decoration: none;
+            padding: 3px groove rgb(56, 28, 158);
+            padding: 8px 16px;
+            border-radius: 4px;
+            font-size: 14px;
+            margin: 0 4px;
+        }
+
+        .icerik{
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        h2{
+            color: rgb(68, 114, 196);
+            border-bottom: 2px solid rgb(68, 114, 196);
+            padding-bottom: 6px;
+        }
+
+        .kutu {
+            background-color: white;
+            border: 1px groove rgb(227, 226, 230);
+            padding: 18px;
+            margin-bottom: 30px;
+        }
+
+        p{
+            font-size: 15px;
+            color: rgb(22, 13, 13);
+            line-height: 1.6;
+        }
+
+        mark{
+            background-color: transparent;
+            font-weight: bold;
+            color: rgb(68, 114, 196);
+        }
+
+        ol{
+            font-size: 15px;
+            line-height: 1.8;
+        }
+
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+        }
+
+        table tr td{
+            border: 1px groove rgb(227, 226, 230);
+            padding: 10px 14px;
+            font-size: 14px;
+        }
+
+        table tr:first-child td{
+            background-color: rgb(68, 114, 196);
+            color: white;
+            font-weight: bold;
+        }
+
+        input, textarea, button{
+            font-size: 14px;
+            border: 1px groove rgb(200, 200, 200);
+            border-radius: 3px;
+            padding: 8px;
+            width: 100%;
+            box-sizing: border-box;
+            margin-bottom: 12px;
+            font-family: inherit;
+        }
+
+        label{
+            display: block;
+            font-weight: bold;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        button{
+            width: auto;
+            background-color: rgb(68, 114, 196);
+            color: white;
+            border: 1px groove rgb(56, 28, 158);
+            padding: 8px 20px;
+            cursor: pointer;
+        }
+
+        footer{
+            background-color: #2c2c2c;
+            color: #ccc;
+            text-align: center;
+            padding: 15px;
+            font-size: 13px;
+        }
